@@ -9,4 +9,13 @@
     <dataSource name="sales_order_grid_data_source">
         <dataProvider class="\MageDevGroup\SalesGridImprovement\Ui\DataProvider\SalesOrderGrid" name="sales_order_grid_data_source" />
     </dataSource>
+    <columns name="sales_order_columns">
+        <column name="product_sku">
+            <settings>
+                <filter>text</filter>
+                <label>Product Name/SKU</label>
+                <sortable>false</sortable>
+            </settings>
+        </column>
+    </columns>
 </listing>
